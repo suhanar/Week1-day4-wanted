@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+.container{
+    width:50%;
+    height:110vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh9yW8VJLLTaUQWMIEAisf1wwTQEhSYEIgYQ&usqp=CAU");
+    background-size: cover;
+    border:10px dashed black;
+    margin-left:300px;
+    
+}
+#heading{
+    border-top:10px solid black;
+    border-bottom:10px solid black;
+    display:inline-block;
+    font-size:50px;
+    font-weight:900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#h4{
+    font-size:25px;
+    margin-top:-20px;
+}
+.para{
+    font-size:15px;
+    font-weight: 700;
+    font-family: cursive;
+}
+#h{
+    font-size:25px;
+}
+button{
+    width:150px;
+    height:50px;
+    background-color: black;
+    color:white;
+    transition: all .5s;
+}
+button:hover{
+    background-color: brown;
+    color:black;
+}
+button::before{
+    content : "Click to Call";
+}
+button:hover::before{
+    content : "9-1-1";
+   
+}
+button:hover{
+    transform: rotateY(360deg);
+}
